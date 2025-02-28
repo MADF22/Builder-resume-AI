@@ -3,7 +3,6 @@ import { FaGraduationCap, FaBriefcase } from "react-icons/fa";
 const Template1 = ({ data }) => {
   return (
     <div className="bg-white p-8">
-      {/* Header */}
       <div className="element-header-template-one border-b">
         <div className="text-center mb-4">
           <h1 className="text-4xl font-bold text-gray-800">{data.name}</h1>
