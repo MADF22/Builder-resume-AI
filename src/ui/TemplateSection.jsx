@@ -9,7 +9,7 @@ export default function TemplateSection() {
   return (
     <div className="container mx-auto px-16">
       <div className="title-heading-content text-center py-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
+        <h1 className="text-3xl md:text-3xl font-bold text-gray-900">
           Explore 4 impactful resume templates
         </h1>
         <h6 className="text-md text-gray-500 py-2">
