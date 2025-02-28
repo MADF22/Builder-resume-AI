@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import Template1 from "../assets/image/Resume 1.jpg";
 import Template2 from "../assets/image/Frame 2.jpg";
@@ -7,7 +6,7 @@ import Template4 from "../assets/image/Frame 3.jpg";
 
 export default function TemplateSection() {
   return (
-    <div className="container mx-auto px-16">
+    <div className="container mx-auto px-16 md:px-16 lg:px-8">
       <div className="title-heading-content text-center py-12">
         <h1 className="text-3xl md:text-3xl font-bold text-gray-900">
           Explore 4 impactful resume templates
