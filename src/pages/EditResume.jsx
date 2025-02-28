@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Template1 from "../components/Template1";
 import Template2 from "../components/Template2";
 import Template3 from "../components/Template3";
@@ -21,7 +21,6 @@ const EditResume = () => {
   });
 
   const { template } = useParams();
-  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
