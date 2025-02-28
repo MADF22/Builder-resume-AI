@@ -30,12 +30,12 @@ export default function Modal() {
       const response = await getDepseekResponse(input);
 
       if (response) {
-        setResponseMessage(response.choices[0].message.content); // Simpan respons AI
+        setResponseMessage(response.choices[0].message.content);
       }
     } catch (error) {
       setResponseMessage("Error fetching response. Please try again.");
     } finally {
-      setLoading(false); // Matikan loading
+      setLoading(false);
     }
 
     setInput("");
@@ -84,7 +84,7 @@ export default function Modal() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               label="Ask Typing Jobs"
-              disabled={loading} // Matikan input saat loading
+              disabled={loading}
             />
             <Textarea label="Message" value={responseMessage} readOnly />
           </div>

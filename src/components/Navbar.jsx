@@ -7,7 +7,6 @@ export default function Navbar() {
 
   return (
     <>
-      {/* Navbar */}
       <nav className="py-2 px-8 border-b w-full top-0 z-50 bg-white">
         <div className="container mx-auto flex justify-between items-center">
           {/* Logo */}
