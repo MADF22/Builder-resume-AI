@@ -3,7 +3,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import Template1 from "../components/Template1";
 import Template2 from "../components/Template2";
 import Template3 from "../components/Template3";
-import { FaHistory, FaTools } from "react-icons/fa";
 import html2canvas from "html2canvas";
 import jsPDF from "jspdf";
 import { Input, Typography } from "@material-tailwind/react";
