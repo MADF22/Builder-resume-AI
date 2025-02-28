@@ -1,5 +1,5 @@
 const API_KEY =
-  "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"; // Ganti dengan API Key Anda
+  "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"; // Ganti dengan API Key Anda
 const BASE_URL = "https://openrouter.ai/api/v1/chat/completions";
 
 export const getDepseekResponse = async (prompt) => {
