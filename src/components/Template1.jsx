@@ -1,5 +1,3 @@
-import { FaGraduationCap, FaBriefcase } from "react-icons/fa";
-
 const Template1 = ({ data }) => {
   return (
     <div className="bg-white p-8">
